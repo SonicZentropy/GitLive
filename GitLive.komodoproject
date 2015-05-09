@@ -10,5 +10,6 @@
 <file id="7d06bc8d-c377-46a6-9566-29aaa120e2b3" idref="c7887a9a-0dba-42e8-8318-7d6952756904" name="README.md" url="README.md">
 </file>
 <preference-set idref="c7887a9a-0dba-42e8-8318-7d6952756904" id="project" preftype="project">
+  <long id="prefs_version">1</long>
 </preference-set>
 </project>
