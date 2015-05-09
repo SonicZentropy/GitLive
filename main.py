@@ -5,4 +5,4 @@ file_content = f.read()
 f.close
 echo file_content
 
-echo test
+echo "Test2"
