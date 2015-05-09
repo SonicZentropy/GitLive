@@ -6,3 +6,4 @@ f.close
 echo file_content
 
 echo "Test2"
+echo "TestFinal 2"
