@@ -1,9 +1,13 @@
 import gzip
 
-f=gzip.open('test.als', 'rb')
+f = gzip.open('test.als', 'rb')
 file_content = f.read()
-f.close
-echo file_content
+f.close()
 
-echo "Test2"
-echo "TestFinal 5"
+outF = file("test.xml", 'wb')
+outF.write(file_content)
+outF.close()
+
+infile = file("test.xml", 'r')
+gOut = gzip.open('testOut.als', 'wb')
+gOut.writelines(infile)
