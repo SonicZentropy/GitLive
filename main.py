@@ -1,4 +1,5 @@
 import gzip
+import git
 
 f = gzip.open('test.als', 'rb')
 file_content = f.read()
@@ -11,3 +12,6 @@ outF.close()
 infile = file("test.xml", 'r')
 gOut = gzip.open('testOut.als', 'wb')
 gOut.writelines(infile)
+
+repo = git.Repo('./')
+print repo.git.status()
